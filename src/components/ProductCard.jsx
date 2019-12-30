@@ -1,5 +1,8 @@
 import React from 'react';
 import '../assets/styles/components/ProductCard.scss';
+import LocationOnIcon from '@material-ui/icons/LocationOn';
+import StarIcon from '@material-ui/icons/Star';
+import TurnedInNotIcon from '@material-ui/icons/TurnedInNot';
 
 const ProductCard = () => (
   <article className="custom-card">
@@ -24,11 +27,21 @@ const ProductCard = () => (
         </div>
       </div>
       <div className="card-footer">
-        <h5 className="adress-product">1.8 km</h5>
+        <ul className="review-product">
+          <LocationOnIcon fontSize="small"/>
+          <li>1.8 km</li>
+          <div className="separator"></div>
+          <StarIcon fontSize="small"/>
+          <li>4.3(81)</li>
+          <div className="separator"></div>
+          <TurnedInNotIcon fontSize="small"/>
+          <li>26.354</li>
+        </ul>
+        {/* <h5 className="adress-product">1.8 km</h5>
         <div className="review-product">
           <span>4.3</span>
           <span>(81)</span>
-        </div>
+        </div> */}
       </div>
     </div>
   </article>
