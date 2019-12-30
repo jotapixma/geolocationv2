@@ -1,0 +1,106 @@
+article.custom-card{
+  margin: 20px 0;
+  .card-content{
+    box-shadow: 0px 1px 12px rgba(0, 0, 0, 0.07217);
+    .card-header{
+      border-radius: 6px;
+      border-bottom: 0;
+      background-color: #f0f0f0;
+      padding: 0;
+      border: 1px solid white;
+      figure{
+        margin: 0;
+        img{
+          width: 100%;
+          min-height: 250px;
+          background-color: #f0f0f0;
+        }
+      }
+    }
+    .card-body{
+      background-color: #fff;
+      border-bottom: 1px solid #D8D8D8;
+      padding-bottom: 25px;
+      .card-title{
+        padding: 1.25rem;
+        .title{
+          font-weight: 600;
+          font-size: 22px;
+          text-align: left;
+          margin: 0;
+          color: #5C5A5A;
+          line-height: 28px;
+        }
+        p{
+          font-size: 18px;
+          text-align: left;
+          color: #6A6A6A;
+          line-height: 23px;
+          margin-bottom: 0;
+        }
+      }
+      .product-price{
+        display: flex;
+        align-items: center;
+        padding: 0 1.25rem;
+        align-items: center;
+        position: relative;
+        .price-discount{
+          background-color: #FFFFFF;
+          border-radius: 6px;
+          height: 36px;
+          width: 36px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          border: 2px solid #316AFF;
+          span{
+            font-size: 12px;
+            font-weight: 900;
+            color: #316AFF;
+          }
+        }
+        .price-container{
+          position: relative;
+          left: 12px;
+          .price-offer{
+            font-size: 28px;
+            font-weight: 800;
+            color: #FB7500;
+            margin: 0;
+          }
+        }
+        .product-id{
+          position: absolute;
+          right: 25px;
+          bottom: 0;
+          span{
+            font-size: 9px;
+            color: #A7A7A6;
+            font-weight: 800;
+          }
+        }
+      }
+    }
+    .card-footer{
+      padding: 0.75rem 1.25rem;
+      font-size: 13px;
+      font-weight: bold;
+      background-color: #fff;
+      text-align: left;
+      display: flex;
+      justify-content: space-between;
+      color: #A7A7A6;
+      border-radius: 0px 0px 6px 6px;
+      align-items: center;
+      color: #A7A7A6;
+      span{
+        display: flex;
+        align-items: center;
+        svg{
+          margin-right: 5px;
+        }
+      }
+    }
+  }
+}

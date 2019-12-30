@@ -37,11 +37,6 @@ const ProductCard = () => (
           <TurnedInNotIcon fontSize="small"/>
           <li>26.354</li>
         </ul>
-        {/* <h5 className="adress-product">1.8 km</h5>
-        <div className="review-product">
-          <span>4.3</span>
-          <span>(81)</span>
-        </div> */}
       </div>
     </div>
   </article>
