@@ -1,0 +1,12 @@
+section.category-content{
+  margin: 20px 0;
+  .category-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    height: 85px;
+    width: 100%;
+    border-radius: 6px;
+  }
+}

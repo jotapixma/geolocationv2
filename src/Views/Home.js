@@ -1,10 +1,13 @@
 import React from 'react';
-// import './Home.scss';
+import '../assets/styles/views/Home.scss';
 import ProductCard from '../components/ProductCard.jsx'
+import CategorySection from '../components/CategorySection.jsx'
+
 
 function Home() {
   return (
-    <div className="Home">
+    <div className="home">
+      <CategorySection/>
       <ProductCard/>
       <ProductCard/>
     </div>
