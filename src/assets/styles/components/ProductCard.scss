@@ -1,0 +1,101 @@
+article.custom-card{
+  border-radius: 5px;
+  margin: 20px 0;
+  .card-content{
+    border: 1px solid #D4D4D4;
+    border-radius: 6px;
+    box-shadow: 0px 1px 12px rgba(0, 0, 0, 0.07217);
+    .card-header{
+      border-radius: 6px;
+      border-bottom: 0;
+      background-color: #f0f0f0;
+      padding: 0;
+      figure{
+        margin: 0;
+        img{
+          width: 100%;
+          min-height: 250px;
+          background-color: #f0f0f0;
+        }
+      }
+    }
+    .card-body{
+      background-color: #fff;
+      .card-title{
+        padding: 1.25rem;
+        .title{
+          font-weight: 500;
+          font-size: 21px;
+          text-align: left;
+          margin: 0;
+        }
+      }
+      .product-price{
+        display: flex;
+        padding: 0 1.25rem;
+        .price-discount{
+          background-color: #316AFF;
+          border-radius: 6px;
+          height: 49px;
+          width: 48px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          span{
+            font-size: 15px;
+            font-weight: 900;
+            color: #fff;
+          }
+        }
+        .price-container{
+          position: relative;
+          left: 12px;
+          .price-offer{
+            font-size: 26px;
+            font-weight: 800;
+            color: #FB7500;
+            margin: 0;
+          }
+          .old-price{
+            font-size: 15px;
+            font-weight: 500;
+            text-decoration: line-through;
+            color: rgba(160, 160, 160, 0.9);
+            margin: 0;
+          }
+        }
+      }
+    }
+    .card-footer{
+      padding: 1rem 1.25rem;
+      position: relative;
+      background-color: #fff;
+      text-align: left;
+      display: flex;
+      .adress-product{
+        color: #A7A7A6;
+        font-size: 15px;
+        font-weight: 600;
+        margin: 0;
+      }
+      .review-product{
+        &:before{
+          content: "";
+          // background-image: url("../assets/star.png");
+          position: absolute;
+          height: 16px;
+          width: 16px;
+          left: -17px;
+          top: 50%;
+          transform: translateY(-50%);
+        }
+        span{
+          font-size: 13px;
+          font-weight: 500;
+          margin-left: 2px;
+          color: #A7A7A6;
+        }
+      }
+    }
+  }
+}
