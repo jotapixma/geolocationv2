@@ -1,4 +1,10 @@
 .home{
   background-color: #F0F0F0;
-  // padding: 20px 0;
+  .card-body{
+    .card-title{
+      color: #5C5A5A;
+      font-weight: 600;
+      line-height: 22px;
+    }
+  }
 }
