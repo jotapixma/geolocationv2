@@ -1,6 +1,7 @@
 $linear-gray : #979797;
 $font-gray-color: #78787A;
 $soft-black: #545454;
+$blue-custom: #4B7DFF;
 
 
 section.group-filter-section{
@@ -31,6 +32,7 @@ section.group-filter-section{
     height: 115px;
     display: flex;
     align-items: center;
+    background-color: #ffffff;
     padding-inline-start: 40px;
     .filter-title{
       padding-left: 25px;
@@ -49,10 +51,26 @@ section.group-filter-section{
       }
     }
   }
+  .MuiPaper-root{
+    padding: 0 20px 0 40px;
+    .MuiButtonBase-root{
+      .group-title{
+        font-size: 22px;
+        font-weight: 600;
+        margin: 12px 0;
+      }
+      span{
+        svg {color: $blue-custom; }
+      }
+      .MuiExpansionPanelSummary-content.Mui-expanded{
+        margin: 0;
+      }
+    }
+  }
   .categories-panel{
     .group-list{
       list-style: none;
-      padding-left: 20px;
+      padding-left: 0;
       li{
         text-align: left;
         padding: 5px 0;

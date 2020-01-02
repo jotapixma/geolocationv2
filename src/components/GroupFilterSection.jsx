@@ -27,7 +27,7 @@ export default function SimpleExpansionPanel() {
           aria-controls="panel1a-content"
           id="panel1a-header"
         >
-          <h4>Categoría</h4>
+          <h2 className="group-title">Categoría</h2>
         </ExpansionPanelSummary>
         <ExpansionPanelDetails>
           <CategoryItem/>
@@ -39,7 +39,7 @@ export default function SimpleExpansionPanel() {
           aria-controls="panel1a-content"
           id="panel1a-header"
         >
-          <h4>Comunas </h4>
+          <h2 className="group-title">Comunas </h2>
         </ExpansionPanelSummary>
         <ExpansionPanelDetails>
           <CommuneItem/>
@@ -51,7 +51,7 @@ export default function SimpleExpansionPanel() {
           aria-controls="panel1a-content"
           id="panel1a-header"
         >
-          <h4>Distancia</h4>
+          <h2 className="group-title">Distancia</h2>
         </ExpansionPanelSummary>
         <ExpansionPanelDetails>
           <DistanceItem/>
@@ -63,7 +63,7 @@ export default function SimpleExpansionPanel() {
           aria-controls="panel2a-content"
           id="panel2a-header"
         >
-          <h4>Precio</h4>
+          <h2 className="group-title">Precio</h2>
         </ExpansionPanelSummary>
         <ExpansionPanelDetails>
           <PriceItem/>
