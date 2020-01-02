@@ -34,13 +34,6 @@ section.group-filter-section{
     align-items: center;
     background-color: #ffffff;
     padding-inline-start: 40px;
-    .filter-title{
-      padding-left: 25px;
-      font-size: 28px;
-      font-weight: 800;
-      color: $soft-black;
-      margin: 0;
-    }
     figure{
       margin: 0;
       img{
@@ -48,6 +41,25 @@ section.group-filter-section{
         position: absolute;
         top: 50%;
         transform: translateY(-50%);
+      }
+    }
+    .filter-title{
+      padding-left: 25px;
+      font-size: 28px;
+      font-weight: 800;
+      color: $soft-black;
+      margin: 0;
+    }
+    .clear-filters{
+      position: absolute;
+      right: 25px;
+      span{
+        font-size: 18px;
+        font-weight: bold;
+        color: $font-gray-color;
+        position: relative;
+        top: 3px;
+        text-decoration: underline;
       }
     }
   }

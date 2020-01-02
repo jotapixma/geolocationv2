@@ -20,6 +20,9 @@ export default function SimpleExpansionPanel() {
           <img src= {GoBackArrow} alt="go back arrow" />
         </figure>
         <span className="filter-title">Filtrar por</span>
+        <div className="clear-filters">
+          <span>Borrar</span>
+        </div>
       </div>
       <ExpansionPanel>
         <ExpansionPanelSummary

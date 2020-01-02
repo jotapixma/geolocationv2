@@ -30,19 +30,7 @@ section.purchase-bar{
   }
   @media only screen and (min-width: 320px) and (max-width: 374px) {
     .purchase-container{
-      .buttons-panel{
-        .makeStyles-root-10,.makeStyles-root-43{
-          height: 38px;
-        }
-        .makeStyles-root-10{
-          font-size: 10px;
-          width: 70px;
-        }
-        .makeStyles-root-43{
-          font-size: 10px;
-          width: 120px;
-        }
-      }
+      padding: 1.25rem 1rem;
       .price-content{
         .price-offer{
           font-size: 16px;
@@ -52,20 +40,9 @@ section.purchase-bar{
         }
       }
     }
-
   }
   @media only screen and (min-width: 375px) and (max-width: 500px) {
     .purchase-container{
-      .buttons-panel{
-        .makeStyles-root-10{
-          font-size: 14px;
-          width: 85px;
-        }
-        .makeStyles-root-43{
-          font-size: 14px;
-          width: 130px;
-        }
-      }
       .price-content{
         .price-offer{
           font-size: 20px;

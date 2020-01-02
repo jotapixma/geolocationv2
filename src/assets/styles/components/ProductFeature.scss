@@ -1,0 +1,40 @@
+$blue-custom: #4B7DFF;
+$linear-gray : #979797;
+$font-gray-color: #7E7C7C;
+$soft-black: #545454;
+$p-color: #78787A;
+
+section.product-feature{
+  .MuiPaper-root{
+    padding: 0 1.25rem;
+    .MuiButtonBase-root{
+      padding-left: 0;
+      span.MuiIconButton-label{
+        svg{ color: $blue-custom; }
+      }
+      .group-title{
+        font-size: 18px;
+        font-weight: 800;
+        line-height: 22px;
+        color: $font-gray-color;
+        text-align: left;
+        margin: 10px 0;
+      }
+      .MuiExpansionPanelSummary-content.Mui-expanded{
+        margin: 0;
+      }
+    }
+    .MuiCollapse-container{
+      .MuiExpansionPanelDetails-root{
+        padding: 0;
+        p{
+          text-align: left;
+          font-size: 18px;
+          color: $p-color;
+          margin-top: 0;
+        }
+      }
+    }
+
+  }
+}
