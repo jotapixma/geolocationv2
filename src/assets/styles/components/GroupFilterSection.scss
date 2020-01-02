@@ -54,13 +54,14 @@ section.group-filter-section{
   .MuiPaper-root{
     padding: 0 20px 0 40px;
     .MuiButtonBase-root{
+      span.MuiIconButton-label{
+        svg{ color: $blue-custom; }
+      }
       .group-title{
         font-size: 22px;
         font-weight: 600;
         margin: 12px 0;
-      }
-      span{
-        svg {color: $blue-custom; }
+        color: $soft-black;
       }
       .MuiExpansionPanelSummary-content.Mui-expanded{
         margin: 0;

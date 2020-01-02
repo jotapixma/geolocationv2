@@ -8,6 +8,7 @@ import CategorySection from '../components/CategorySection.jsx'
 import SliderFeature from '../components/SliderFeature'
 import GeneralFilterBar from '../components/GeneralFilterBar.jsx'
 import GroupFilterSection from '../components/GroupFilterSection.jsx'
+import ApplyButton from '../components/ApplyButton.jsx'
 
 // import OrderFilterSection from '../components/OrderFilterSection.jsx'
 
@@ -21,7 +22,8 @@ function Home() {
       {/* <ProductCard/> */}
       {/* <OrderFilterSection/> */}
       <GroupFilterSection/>
-      <GeneralFilterBar/>
+      <ApplyButton/>
+      {/* <GeneralFilterBar/> */}
       {/* <ProductCardDetail/> */}
       {/* <ProductCardDetail/> */}
       {/* <PurchaseBar/> */}
