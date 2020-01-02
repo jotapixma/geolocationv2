@@ -1,7 +1,8 @@
 import React from 'react';
-import '../assets/styles/components/FilterBar.scss';
+import '../assets/styles/components/GeneralFilterBar.scss';
+import '../assets/styles/views/App.scss';
 
-const FilterBar = () => (
+const GeneralFilterBar = () => (
   <section className="filter-bar">
     <ul className="filter-content">
       <li className="filter-item active">Orden
@@ -12,7 +13,7 @@ const FilterBar = () => (
       </li>
       <li className="filter-item">Mapa</li>
     </ul>
-  </section >
+  </section>
 );
 
-export default FilterBar;
+export default GeneralFilterBar;

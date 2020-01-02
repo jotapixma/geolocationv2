@@ -1,13 +1,15 @@
 import React from 'react';
 import '../assets/styles/views/Home.scss';
-import ProductCard from '../components/ProductCard.jsx'
+// import ProductCard from '../components/ProductCard.jsx'
 // import ProductCardDetail from '../components/ProductCardDetail.jsx'
 import CategorySection from '../components/CategorySection.jsx'
 // import PurchaseBar from '../components/PurchaseBar.jsx'
 // import ProductFeature from '../components/ProductFeature.jsx'
 import SliderFeature from '../components/SliderFeature'
-import FilterBar from '../components/FilterBar.jsx'
+import GeneralFilterBar from '../components/GeneralFilterBar.jsx'
+import GroupFilterSection from '../components/GroupFilterSection.jsx'
 
+// import OrderFilterSection from '../components/OrderFilterSection.jsx'
 
 function Home() {
   return (
@@ -15,9 +17,11 @@ function Home() {
       {/* <SliderFeature/> */}
       {/* <ProductFeature/> */}
       {/* <SmallProductCard/> */}
-      <CategorySection/>
-      <ProductCard/>
-      <FilterBar/>
+      {/* <CategorySection/> */}
+      {/* <ProductCard/> */}
+      {/* <OrderFilterSection/> */}
+      <GroupFilterSection/>
+      <GeneralFilterBar/>
       {/* <ProductCardDetail/> */}
       {/* <ProductCardDetail/> */}
       {/* <PurchaseBar/> */}
