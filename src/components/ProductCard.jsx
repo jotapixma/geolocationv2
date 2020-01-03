@@ -16,7 +16,6 @@ class ProductCard extends React.Component {
   render(){
     return (
       <article className="custom-card" onClick={this.handleButtonClick.bind(this)}>
-        {/* <Link to="/purchase/product">Hazme click</Link> */}
         <div className="card-content">
           <div className="card-header">
             <figure>

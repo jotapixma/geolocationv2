@@ -3,7 +3,6 @@ import { withRouter } from 'react-router';
 import '../assets/styles/components/GeneralFilterBar.scss';
 import '../assets/styles/views/App.scss';
 
-
 class GeneralFilterBar extends React.Component {
 
   goToOrderFilter(){
@@ -18,7 +17,6 @@ class GeneralFilterBar extends React.Component {
   
   render(){
     return (
-      
       <section className="filter-bar">
         <ul className="filter-content">
           <li className="filter-item active" onClick={this.goToOrderFilter.bind(this)}>Orden
@@ -32,7 +30,6 @@ class GeneralFilterBar extends React.Component {
       </section>
     );
   }
-
 }
 
 const GeneralFilterBarWithRouter = withRouter(GeneralFilterBar)
