@@ -8,6 +8,7 @@ article.custom-card{
       background-color: #f0f0f0;
       padding: 0;
       border: 1px solid white;
+      position: relative;
       figure{
         margin: 0;
         img{
@@ -15,6 +16,11 @@ article.custom-card{
           min-height: 250px;
           background-color: #f0f0f0;
         }
+      }
+      .go-back-arrow{
+        position: absolute;
+        left: 20px;
+        top: 20px;
       }
     }
     .card-body{

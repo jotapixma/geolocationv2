@@ -2,11 +2,19 @@ import React from 'react';
 import StarIcon from '@material-ui/icons/Star';
 import { yellow } from '@material-ui/core/colors';
 import '../assets/styles/components/ProductCardDetail.scss';
+import { withRouter } from 'react-router';
+import GoBackArrow from '../assets/img/return-arrow.svg';
+
 
 class ProductCardDetail extends React.Component {
 
-  handleButtonClick(){
-  
+  constructor(props){
+    super(props);
+    this.goBack = this.goBack.bind(this);
+  }
+
+  goBack(){
+    this.props.history.goBack();
   }
   
   render(){
@@ -17,6 +25,9 @@ class ProductCardDetail extends React.Component {
             <figure>
               <img src="" alt=""/>
             </figure>
+            <div className="go-back-arrow" onClick={this.goBack}>
+              <img src={GoBackArrow} alt="go back arrow" />
+            </div>
           </div>
           <div className="card-body">
             <div className="card-title">
@@ -44,7 +55,7 @@ class ProductCardDetail extends React.Component {
     );
   }
 
-}
+} 
 
-
-export default ProductCardDetail;
+const ProductCardDetailWithRouter = withRouter(ProductCardDetail)
+export default ProductCardDetailWithRouter;
