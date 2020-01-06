@@ -19,7 +19,7 @@ class ProductCardDetail extends React.Component {
   
   render(){
     return (
-      <article className="custom-card">
+      <article className="custom-card-detail">
         <div className="card-content">
           <div className="card-header">
             <figure>

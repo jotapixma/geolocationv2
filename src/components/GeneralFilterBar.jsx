@@ -32,7 +32,7 @@ class GeneralFilterBar extends React.Component {
               <span>8</span>
             </div>
           </li>
-          <li className="filter-item active" onClick={this.goToGeolocation.bind(this)}><MapIcon fontSize="small"/>Mapa
+          <li className="filter-item" onClick={this.goToGeolocation.bind(this)}><MapIcon fontSize="small"/>Mapa
             <div className="alert-item">
               <span>2</span>
             </div>
