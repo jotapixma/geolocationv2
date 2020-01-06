@@ -3,6 +3,7 @@ import '../assets/styles/views/Geolocation.scss';
 import CuponaticLocation from '../assets/img/cuponatic-location.png';
 import SmallProductCard from '../components/SmallProductCard'
 import GoBackArrow from '../assets/img/return-arrow.svg';
+import GeolocationFilterBar from '../components/GeolocationFilterBar.jsx';
 
 class Geolocation extends React.Component {
 
@@ -25,6 +26,7 @@ class Geolocation extends React.Component {
           <img src= {GoBackArrow} alt="go back arrow"/>
         </div> 
         <SmallProductCard/>
+        <GeolocationFilterBar/>
       </div>
     );
   }

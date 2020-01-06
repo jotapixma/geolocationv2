@@ -1,8 +1,10 @@
 import React from 'react';
 import LocationOnIcon from '@material-ui/icons/LocationOn';
 import StarIcon from '@material-ui/icons/Star';
-import '../assets/styles/components/SmallProductCard.scss';
 import ImgProduct from '../assets/img/img-small-card.png';
+import '../assets/styles/components/SmallProductCard.scss';
+import '../assets/styles/views/App.scss'
+
 
 const SmallProductCard = () => (
   <article className="small-card">

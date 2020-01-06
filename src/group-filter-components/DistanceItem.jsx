@@ -2,7 +2,7 @@ import React from 'react';
 import '../assets/styles/components/GroupFilterSection.scss';
 
 const DiscanceItem= () => (
-  <div className="box-panel">
+  <div className="box-panel distance">
     <div className="box-item">
       <span>-1 km</span>
     </div>

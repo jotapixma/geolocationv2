@@ -9,6 +9,7 @@ section.group-filter-section{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    margin: 10px 0 30px 0;
     .box-item{
       margin: 8px 0;
       width: 135px;
@@ -25,6 +26,9 @@ section.group-filter-section{
       &.price{
         padding: 5px;
       }
+    }
+    &.distance{
+      
     }
   }
   .head-filter{
@@ -64,7 +68,19 @@ section.group-filter-section{
     }
   }
   .MuiPaper-root{
-    padding: 0 20px 0 40px;
+    padding: 0 20px;
+    .MuiCollapse-container{
+      .MuiExpansionPanelDetails-root{
+        padding: 0;
+        &.collapse-categories{
+          padding: 0 25px 30px 25px;
+        }
+        &.collapse-communes{
+          max-height: 180px;
+          overflow-y: scroll;
+        }
+      }
+    }
     .MuiButtonBase-root{
       span.MuiIconButton-label{
         svg{ color: $blue-custom; }

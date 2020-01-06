@@ -44,7 +44,7 @@ class ExtendedFilterSection extends React.Component {
           >
             <h2 className="group-title">Categoría</h2>
           </ExpansionPanelSummary>
-          <ExpansionPanelDetails>
+          <ExpansionPanelDetails className="collapse-categories" >
             <CategoryItem/>
           </ExpansionPanelDetails>
         </ExpansionPanel>
@@ -56,7 +56,7 @@ class ExtendedFilterSection extends React.Component {
           >
             <h2 className="group-title">Comunas </h2>
           </ExpansionPanelSummary>
-          <ExpansionPanelDetails>
+          <ExpansionPanelDetails className="collapse-communes">
             <CommuneItem/>
           </ExpansionPanelDetails>
         </ExpansionPanel>
