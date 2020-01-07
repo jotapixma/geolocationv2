@@ -3,7 +3,8 @@ $card-title: #5C5A5A;
 article.small-card{
   position: absolute;
   bottom: 0;
-  margin: 20px 20px 75px 20px;
+  // margin: 20px 20px 75px 20px;
+  width: 100%;
   
   .card-content{
     box-shadow: 0px 1px 12px rgba(0, 0, 0, 0.07217);
